@@ -1,0 +1,13 @@
+Syntaxis de ejecución
+
+el nombre del archivo de entrada tiene que ser exclusivamente 'calendario.htm', ya me tomaré el tiempo para poder pasar esto por argumento
+
+$ sh html2txt.sh
+
+Se generan los archivos 'horario.txt' y 'semana.txt' 
+
+$ python2 genCal.py
+
+El planning en formato iCal se escribe por salida standard, es caso de querer escribr en un archivo es la misma línea anterior redireccionada, ejemplo
+
+$ python2 genCal.py > miPlanning.vcs
